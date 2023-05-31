@@ -1,0 +1,151 @@
+ H4 {
+    font-family: monospace;
+
+ }
+
+ .container title {
+     color: azure;
+
+
+ }
+
+input {
+  float: right;
+  padding: 6px;
+  font-size: 17px;
+  height: 5pt;
+  }
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+  }
+
+ .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: serif;
+    text-align: center ;
+    font-size:200%;
+     text-decoration-color: rgb(206, 253, 253);
+ }
+
+.title   {
+     font-size: 150%;
+     text-align: center;
+     font-family: serif;
+     color: white;
+ }
+
+
+  #logo {
+      display: flex;
+      height: 150px;
+      align-content: flex-start;
+      margin-top: 20px;
+      float: left;
+  }
+
+  .sub {
+    text-align: center;
+    font-family: serif;
+}
+
+   .form {
+       display: flex;
+       flex-direction: column;
+       border: 0px;
+ }
+
+
+   #submit {
+      color: rgb(19, 36, 1);
+       height: 50px;
+   }
+
+   #background {
+    width: 1345px;
+    height: 500px;
+    border-radius: 1%;
+   }
+
+   body {
+    background-color: rgb(212, 229, 236);
+
+   }
+
+   #div1{
+     display: flex;
+     justify-content: center;
+   }
+
+   * {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+ .active {
+  background-color: #2196F3;
+  color: black; }
+
+
+.topnav a {
+  float: right ;
+  display: block;
+  border-radius: 10%;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(212, 229, 236);
+  color: black;
+  cursor:pointer;
+}
+
+.topnav a.active {
+  background-color: rgb(173, 203, 216);
+  color: black; }
+
+#pic {
+     width: 500px ;
+    height: 500px;
+    border-radius: 5%;
+    margin: 50px;
+}
+
+.lady {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-2 {
+  background-color: black;
+  color: antiquewhite;
+  font-size: small;
+  font-family: serif;
+
+}
+
+ .bottom {
+    width: 20%;
+    height: 20%;
+ }
